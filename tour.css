@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     color: white;
+    cursor: pointer;
 }
 
 /* body {
@@ -12,6 +13,7 @@
 .main-container {
     position: relative;
 }
+
 
 .total-sidebar {
     width: 300px;
@@ -193,3 +195,42 @@
     width: 300px;
     height: 300px;
 }
+
+
+
+
+/* Display Mechanisam */
+
+.main-container {
+    display: none;
+}
+
+body:not(:has(:target)) #section-Entrance {
+    display: block;
+}
+
+
+
+.main-container:target {
+    display: block;
+}
+
+
+.main-container:not(:target) {
+    display: none;
+}
+
+
+
+
+/* -------------------gallery------------------ */
+
+.gallery {
+    position: absolute;
+    top: 76%;
+    right: 5%;
+    width: 200px;
+    height: 100px;
+    background-color: blue;
+}
+
