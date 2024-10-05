@@ -232,5 +232,6 @@ body:not(:has(:target)) #section-Entrance {
     width: 200px;
     height: 100px;
     background-color: green;
+    border-radius: 10px;
 }
 
