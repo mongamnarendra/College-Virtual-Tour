@@ -1,0 +1,252 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    padding: 15px 20px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.logo {
+    color: white;
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.1rem;
+    transition: color 0.3s;
+}
+
+.nav-links li a:hover {
+    color: orangered;
+}
+
+.buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.button {
+    padding: 10px 15px;
+    color: white;
+    background-color: orangered;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.button:hover {
+    background-color: darkorange;
+}
+
+.hero {
+    position: relative;
+    text-align: center;
+}
+
+.hero-image {
+    width: 100%;
+    height: 80vh;
+}
+
+.hero-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+.hero h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 1.5rem;
+}
+
+.info-cards {
+    display: flex;
+    justify-content: space-around;
+    padding: 40px 20px;
+    background-color: white;
+}
+
+.card {
+    background-color: #007BFF;
+    color: white;
+    border-radius: 10px;
+    padding: 20px;
+    width: 30%;
+    text-align: center;
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.tour-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px;
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px 0;
+    background-image: url("entracesideBar.jpeg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.tour-content {
+    flex: 1;
+    padding-right: 20px;
+}
+
+.tour-content h2 {
+    font-size: 2rem;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.tour-content p {
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+    line-height: 1.5;
+}
+
+.tour-button {
+    padding: 12px 25px;
+    background-color: orangered;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.tour-button:hover {
+    background-color: darkorange;
+    transform: translateY(-2px);
+}
+
+.tour-image {
+    flex: 1;
+    position: relative;
+}
+
+.tour-img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    object-fit: cover;
+}
+
+.tour-section {
+    position: relative;
+    overflow: hidden;
+}
+
+.tour-image img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.admission-form {
+    padding: 40px 20px;
+    background-color: white;
+    text-align: center;
+}
+
+.admission-form form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.admission-form label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+.admission-form input,
+.admission-form select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.submit-button {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.submit-button:hover {
+    background-color: #0056b3;
+}
+
+.footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #222;
+    color: white;
+}
+
+.footer-links {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-links li {
+    display: inline;
+    margin: 0 10px;
+}
+
+.footer-links a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
