@@ -204,32 +204,6 @@ html {
 }
 
 
-
-
-/* Display Mechanisam */
-
-.main-container {
-    display: none;
-}
-
-body:not(:has(:target)) #section-Entrance {
-    display: block;
-}
-
-
-
-.main-container:target {
-    display: block;
-}
-
-
-.main-container:not(:target) {
-    display: none;
-}
-
-
-
-
 /* -------------------gallery------------------ */
 
 
